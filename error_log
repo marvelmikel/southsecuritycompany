@@ -1,0 +1,244 @@
+[28-Jul-2022 00:32:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#11 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Jul-2022 00:32:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#11 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Jul-2022 00:32:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#11 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Jul-2022 00:33:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#11 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Jul-2022 00:36:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#11 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Jul-2022 00:36:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#11 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Jul-2022 00:37:44 UTC] PHP Fatal error:  Declaration of App\Http\Middleware\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) in /home/humuhgct/logistics.humucarecleaning.co.uk/app/Http/Middleware/Authenticate.php on line 17
+[28-Jul-2022 00:44:30 UTC] PHP Fatal error:  Declaration of App\Http\Middleware\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) in /home/humuhgct/logistics.humucarecleaning.co.uk/app/Http/Middleware/Authenticate.php on line 17
+[28-Jul-2022 00:45:51 UTC] PHP Fatal error:  Declaration of App\Http\Middleware\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) in /home/humuhgct/logistics.humucarecleaning.co.uk/app/Http/Middleware/Authenticate.php on line 17
+[28-Jul-2022 00:46:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#11 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(926): app()
+#6 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(581): view()
+#7 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#8 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#9 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#10 /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/humuhgct/logistics.humucarecleaning.co.uk/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Jul-2022 00:46:28 UTC] PHP Fatal error:  Declaration of App\Http\Middleware\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) in /home/humuhgct/logistics.humucarecleaning.co.uk/app/Http/Middleware/Authenticate.php on line 17
+[28-Jul-2022 00:46:32 UTC] PHP Fatal error:  Declaration of App\Http\Middleware\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) in /home/humuhgct/logistics.humucarecleaning.co.uk/app/Http/Middleware/Authenticate.php on line 17
+[28-Jul-2022 00:47:25 UTC] PHP Fatal error:  Declaration of App\Http\Middleware\Authenticate::handle($request, Closure $next) must be compatible with Illuminate\Auth\Middleware\Authenticate::handle($request, Closure $next, ...$guards) in /home/humuhgct/logistics.humucarecleaning.co.uk/app/Http/Middleware/Authenticate.php on line 17
+[22-Sep-2022 09:37:27 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.30. in /home/soutnoem/public_html/vendor/composer/platform_check.php on line 24
+[22-Sep-2022 09:37:27 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.30. in /home/soutnoem/public_html/vendor/composer/platform_check.php on line 24
+[22-Sep-2022 09:37:28 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.30. in /home/soutnoem/public_html/vendor/composer/platform_check.php on line 24
+[22-Sep-2022 09:37:29 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.30. in /home/soutnoem/public_html/vendor/composer/platform_check.php on line 24
+[22-Sep-2022 09:45:22 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.30. in /home/soutnoem/public_html/vendor/composer/platform_check.php on line 24
+[22-Sep-2022 09:46:13 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.30. in /home/soutnoem/public_html/vendor/composer/platform_check.php on line 24
+[03-Oct-2022 09:44:24 UTC] PHP Deprecated:  Optional parameter $fromName declared before required parameter $credentials is implicitly treated as a required parameter in /home/soutnoem/public_html/app/Lib/SendSms.php on line 31
